@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^([^/.]+)$ $1.php [L]
+DirectoryIndex login.php index.php
+Options -Indexes
